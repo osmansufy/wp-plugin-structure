@@ -1,0 +1,22 @@
+{
+    "name": "osman/wp-plugin-structure",
+    "description": "WordPress Plugin Structure",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your.email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "league/container": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPS\\": "includes/"
+        }
+    }
+}
+

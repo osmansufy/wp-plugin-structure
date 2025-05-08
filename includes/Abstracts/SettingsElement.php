@@ -66,6 +66,16 @@ abstract class SettingsElement {
 
     public string $dependency_key = '';
 
+    /**
+     * Constructor
+     *
+     * @param string $id Settings Element id.
+     */
+
+    public function __construct( string $id ) {
+        $this->id = $id;
+    }
+
 
 
 
